@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+   <div class="container">
+    
+        <div class="search">
+            <i class="fa-solid fa-location-dot" id="location"></i>
+            <input type="text" placeholder="Enter Your Location" id="search-location">
+            <i class="fa-solid fa-magnifying-glass"  id="search-icon"></i>
+        </div>
+
+        <div class="image-cntr">
+            <img src="img/weather-app.png" alt="weather-img" id="image">
+            <h2 id="temp">0<span>°C</span></h2>
+            <h3 id="city">City</h3>
+        </div>
+
+        <div class="detail">
+            <div class="cntr">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="">
+                    <h4 id="humidity">64%</h4>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="cntr">
+                <i class="fa-solid fa-wind"></i>
+                <div class="">
+                    <h4 id="wind">3.09 km/h</h4>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        
+        
+   </div>
+
+   <script src="js/script.js"></script>
+
+</body>
+</html>
